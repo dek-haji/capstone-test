@@ -9,8 +9,9 @@ namespace testDemo.Models
     {
         public int Id { get; set; }
         public int QuestionId { get; set; }
-        public int ApplicationUserId { get; set; }
+        public string UserId { get; set; }
         public string Answer { get; set; }
-        public Question question { get; set; }
+        public ApplicationUser User { get; set; }
+
     }
 }
