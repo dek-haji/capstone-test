@@ -24,7 +24,7 @@ namespace testDemo.Models
        
        
         public QuestionType QuestionType { get; set; }
-        public virtual ICollection<Answers> Answers { get; set; }
+        public virtual ICollection<Answer> Answers { get; set; }
         
 
     }
